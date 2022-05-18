@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+text-transform: capitalize;
+}
+body{
+    background-image: linear-gradient(to right, black,white);
+}
+.container{
+    width: 25vh;
+    margin-top: 25vh;
+    margin-left: 50vh;
+}
+.container:hover ul li{
+    display: block;
+}
+.list li {
+    display: none;
+}
+.head{
+    border: 1px solid black;
+    font-size: 3rem;
+    font-weight: 400;
+    background-color: red;
+    text-align: center;
+    width: 40vh;
+    height: 5rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    padding-top: 1rem;
+   
+}
+.list li{
+    border: 1px solid black;
+    background-color: red;
+    height: 4rem;
+    width: 40vh;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 0.8rem;
+    font-size: 1.5rem;
+    
+}
+.list li:hover{
+    font-size: 2rem;
+}
